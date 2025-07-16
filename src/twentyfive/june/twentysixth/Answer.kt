@@ -1,4 +1,4 @@
-package `2025`.`06`.`26`
+package twentyfive.june.twentysixth
 
 class Solution {
     fun solution(friends: Array<String>, gifts: Array<String>): Int {

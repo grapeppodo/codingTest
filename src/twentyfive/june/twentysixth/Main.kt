@@ -1,4 +1,4 @@
-package `2025`.`06`.`26`
+package twentyfive.june.twentysixth
 
 fun main() {
     val friends = listOf("muzi", "ryan", "frodo", "neo")

@@ -1,4 +1,4 @@
-package `2025`.`07`.`08`
+package twentyfive.july.eighth
 
 // 내가 푼 버전 + 제출용
 class Solution {

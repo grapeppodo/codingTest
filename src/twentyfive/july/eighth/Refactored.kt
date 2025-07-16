@@ -1,4 +1,4 @@
-package `2025`.`07`.`08`
+package twentyfive.july.eighth
 
 fun main() {
     val survey = arrayOf("TR", "RT", "TR")

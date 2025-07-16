@@ -1,4 +1,4 @@
-package `2025`.`06`.`27`
+package twentyfive.june.twentyseventh
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
