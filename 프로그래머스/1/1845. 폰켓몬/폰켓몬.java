@@ -11,12 +11,11 @@ class Solution {
             set.add(num);
         }
         
+        // 2. 종류 수 구하기 = 각 숫자들의 개수를 카운팅 
         int kind = set.size();
         
-        // 2. 종류 수 구하기 = 각 숫자들의 개수를 카운팅 
-        answer = Math.min(answer, kind);
-        
         // 3. 정답 계산
+        answer = Math.min(answer, kind);
         
         return answer;
     }
