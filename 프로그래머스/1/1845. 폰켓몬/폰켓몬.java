@@ -11,7 +11,7 @@ class Solution {
             set.add(num);
         }
         
-        // 2. 종류 수 구하기 = 각 숫자들의 개수를 카운팅 
+        // 2. 종류 수 구하기
         int kind = set.size();
         
         // 3. 정답 계산
