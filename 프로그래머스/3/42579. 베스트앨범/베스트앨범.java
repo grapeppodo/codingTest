@@ -24,7 +24,12 @@ class Solution {
 
         // 2. 값(총 재생수) 기준으로 큰 것부터 정렬
         genreOrder.sort((a, b) -> genresMap.get(b) - genresMap.get(a));
-    
+        
+        // 3. playsOrder 정리
+        Map<String, Integer> genresPlays = new HashMap<String, Integer>();
+        for(int i=0; i<plays.length; i++) {
+            genresPlays.put(genres[i], i);
+        }
         
         Map<String, List<Integer>> playOrder = new HashMap<>();
         
